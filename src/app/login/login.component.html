@@ -1,0 +1,6 @@
+<small *ngIf="errorMsgshow"> check user credentials </small>
+
+Username <input type="text" id="username"  [(ngModel)]="username">
+Password <input type="password" id="password" [(ngModel)]="Password">
+
+<button  (click)=handleLogin()> Login</button>
